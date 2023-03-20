@@ -9,9 +9,7 @@ body{
 .app{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  gap: 20px;
   width: 50%;
   height: 40%;
   margin: 15% auto 0 auto;
@@ -38,6 +36,7 @@ h1{
   background-color: #F2F3F4;
   padding: 5% auto 5% auto;  
   border-radius: 5px;
+  margin: 5% 0 0 0;
 }
 
 .data-item{
