@@ -1,0 +1,51 @@
+body{
+  width: 100%;
+  height: 100%;
+  overflow-y: none;
+  background-color: #1F1E26;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  height: 40%;
+  margin: 15% auto 0 auto;
+  overflow-y: none;
+}
+
+h1{
+  color:#F2F3F4;
+}
+
+.searchbar{
+  width: 100%;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  padding: 0 10px 0 10px;
+  background-color: #F2F3F4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.data-container{
+  width: 60%;
+  height: 100%;
+  background-color: #F2F3F4;
+  padding: 5% auto 5% auto;  
+  border-radius: 5px;
+}
+
+.data-item{
+  text-align: center;
+  font-size: medium;
+}
+
+.data-not-found{
+  color: red;
+  text-align: center;
+}
