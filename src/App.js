@@ -36,10 +36,10 @@ function App() {
       
       <div className='data-container'>
         <div>
-          <p className='data-item company-name'>Company: {data[0].companyName === undefined ? '--' : `${data[0].companyName} (${data[0].symbol})`}</p>
-          <p className='data-item latest-price'>Current Price: {data[0].latestPrice === undefined ? '--' : `$${data[0].latestPrice}`}</p>
-          <p className='data-item change'>Change in Price: {data[0].change === undefined ? '--' : data[0].change}</p>
-          <p className='data-item change-percent'>Percentage Change: {data[0].changePercent === undefined ? '--' : `${Math.round(data[0].changePercent*10000)/100}%`}</p>
+          <p className='data-item'>Company: {data[0].companyName === undefined ? '--' : `${data[0].companyName} (${data[0].symbol})`}</p>
+          <p className='data-item'>Current Price: {data[0].latestPrice === undefined ? '--' : `$${data[0].latestPrice}`}</p>
+          <p className='data-item'>Change in Price: {data[0].change === undefined ? '--' : data[0].change}</p>
+          <p className='data-item'>Percentage Change: {data[0].changePercent === undefined ? '--' : `${Math.round(data[0].changePercent*10000)/100}%`}</p>
         </div>
         {noData === false ? null : <p className='data-not-found'>Data not found. Try again.</p>}
       </div>
